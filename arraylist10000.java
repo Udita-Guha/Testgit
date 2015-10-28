@@ -8,7 +8,7 @@ public class arraylist100 {
 
 	public static void main(String[] args) {
 		ArrayList arraylist=new ArrayList();
-		for(i=1;i<=100;i++){
+		for(i=1;i<=10000;i++){
 		arraylist.add(i);
 		}
 		Iterator itr=arraylist.iterator();
